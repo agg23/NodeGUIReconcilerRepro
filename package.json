@@ -12,10 +12,13 @@
     "debug": "qode --inspect ./dist/index.js"
   },
   "dependencies": {
-    "@nodegui/nodegui": "^0.16.1",
-    "@nodegui/react-nodegui": "^0.5.0",
+    "@nodegui/nodegui": "^0.22.0",
+    "@nodegui/react-nodegui": "^0.8.0",
+    "@reduxjs/toolkit": "^1.3.6",
+    "@types/react-redux": "^7.1.9",
     "open": "^7.0.3",
-    "react": "^16.13.0"
+    "react": "^16.13.0",
+    "react-redux": "^7.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
@@ -23,15 +26,15 @@
     "@babel/preset-react": "^7.8.3",
     "@babel/preset-typescript": "^7.8.3",
     "@nodegui/packer": "^1.4.0",
-    "@types/node": "^13.9.3",
-    "@types/react": "^16.9.23",
+    "@types/node": "^13.13.12",
+    "@types/react": "^16.9.36",
     "@types/webpack-env": "^1.15.1",
     "babel-loader": "^8.1.0",
     "clean-webpack-plugin": "^3.0.0",
     "file-loader": "^6.0.0",
     "fork-ts-checker-webpack-plugin": "^4.0.5",
     "native-addon-loader": "^2.0.1",
-    "typescript": "^3.8.3",
+    "typescript": "^3.9.5",
     "webpack": "^4.42.0",
     "webpack-cli": "^3.3.11"
   }
